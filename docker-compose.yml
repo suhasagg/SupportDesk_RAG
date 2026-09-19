@@ -1,0 +1,9 @@
+services:
+  supportdesk-rag:
+    build: .
+    ports: ["8080:8080"]
+    environment:
+      RAG_ENV: local
+  chroma:
+    image: chromadb/chroma:latest
+    ports: ["8000:8000"]
