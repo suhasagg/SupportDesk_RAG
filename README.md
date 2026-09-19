@@ -248,9 +248,9 @@ PR: unit tests -> contract tests -> retrieval golden set -> hallucination/advers
 6. **Immutable versioned indexes:** reproducibility and rollback outweigh in-place simplicity.
 7. **Policy outside the model:** authorization and consequential actions must be deterministic.
 
-## 23. Principal+ interview discussion
+## 23. Principal+  discussion
 
-A Principal Engineer should be able to explain not just *how* RAG works but organizational boundaries and tradeoffs: Who owns KB quality? How are ACL changes propagated within minutes? How do you prove a deleted document cannot be retrieved? What happens when an embedding provider changes? How do you measure support-ticket resolution rather than only RAGAS-style proxy scores? Which fixes may be automated? How do you prevent a malicious wiki page from acquiring tool authority? How does a 10x corpus or traffic increase change index topology and reranking economics? How do you roll back a bad index independently of application code?
+Explanation of not just *how* RAG works but organizational boundaries and tradeoffs: Who owns KB quality? How are ACL changes propagated within minutes? How do you prove a deleted document cannot be retrieved? What happens when an embedding provider changes? How do you measure support-ticket resolution rather than only RAGAS-style proxy scores? Which fixes may be automated? How do you prevent a malicious wiki page from acquiring tool authority? How does a 10x corpus or traffic increase change index topology and reranking economics? How do you roll back a bad index independently of application code?
 
 ## 24. Evolution roadmap
 
